@@ -188,7 +188,7 @@ header.scrolled {
   }
 
   .search-bar {
-    flex: 1;
+    flex: 2;
     min-width: 100px;
     max-width: 100%;
   }
@@ -198,7 +198,7 @@ header.scrolled {
   }
 
   .brand {
-    min-width: 0px;
+    min-width: 50px;
   }
 }
 @media (max-width: 575px) {
