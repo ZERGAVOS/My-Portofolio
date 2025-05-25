@@ -52,6 +52,11 @@ header.scrolled {
 .type-logo:hover {
   text-decoration: underline;
 }
+.slash-nav {
+  font-size: 1.5em;
+  color: #007bff;
+  margin: 0 0 0 10px;
+}
 /* Search bar */
 .search-bar {
   display: flex;
@@ -86,6 +91,7 @@ header.scrolled {
 .navbar {
   flex: 1;
   min-width: 200px;
+  justify-content: space-between;
 }
 .navbar ul {
   display: flex;
@@ -93,13 +99,14 @@ header.scrolled {
   gap: 20px;
 }
 .navbar ul li a {
-  color: white;
+  color: #007bff;
   text-decoration: none;
   font-weight: bold;
 }
 .navbar ul li a:hover {
   text-decoration: underline;
 }
+
 /* Burger hidden by default */
 .menu-toggle {
   display: none;
