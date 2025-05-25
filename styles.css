@@ -45,18 +45,18 @@ header.scrolled {
   height: 50px;
   margin-right: 10px;
 }
-.brand h1 {
+.type-logo {
   font-size: 2em;
   color: #007bff;
 }
-.brand h1:hover {
+.type-logo:hover {
   text-decoration: underline;
 }
 /* Search bar */
 .search-bar {
   display: flex;
   align-items: center;
-  flex: 2;
+  flex: 1;
   max-width: 100%;
 }
 .search-bar input[type="text"] {
@@ -197,11 +197,11 @@ header.scrolled {
   }
 
   .brand {
-    min-width: 50px;
+    min-width: auto;
   }
 }
 @media (max-width: 575px) {
-  .brand h1{
+  .type-logo{
   display: none;
   }
 }
