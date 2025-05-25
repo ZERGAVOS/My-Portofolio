@@ -52,11 +52,6 @@ header.scrolled {
 .type-logo:hover {
   text-decoration: underline;
 }
-.slash-nav {
-  font-size: 1.5em;
-  color: #007bff;
-  margin: 0 0 0 10px;
-}
 /* Search bar */
 .search-bar {
   display: flex;
